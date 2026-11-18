@@ -16,12 +16,12 @@ lesson = ["1.Introduction to Programming",
 for x in lesson:
  print(x)
 print("-"*60)
-ans = int(input("\nWhich lesson you want to view (1/2/3..): "))
+ans = int(input("\nWhich lesson you want to view (0...7): "))
 print("")
 if ans == 1:
- print("=" * 50)
+ print("=" * 60)
  print("     LESSON 1: INTRODUCTION TO PROGRAMMING")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT IS A PROGRAMMING LANGUAGE?
@@ -52,10 +52,25 @@ if ans == 1:
  - Jupyter Notebook
  """)
  
+ print("-"*60)
+ print("                      ASSESSMENT")
+ print("-"*60)
+ print("\n1.Yes\n2.No")
+ ans2 = int(input("Would you like to take a short quiz?: "))
+  
+ if ans2 == 1:
+  print("\n1.Multiple Choices\n2.Identification\n3.Fill in d blank")
+  ans3 = int(input("What type of quiz would u like to take?: "))
+  print("")
+  print("-"*60)
+  
+  if ans3 == 1:
+    
+ 
 elif ans == 2:
- print("=" * 50)
+ print("=" * 60)
  print("LESSON 2: PYTHON BASIC SYNTAX")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT IS SYNTAX?
@@ -119,9 +134,9 @@ elif ans == 2:
 """)
 
 elif ans == 3:
- print("=" * 50)
+ print("=" * 60)
  print("LESSON 3: ARITHMETIC OPERATORS AND EXPRESSIONS")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT ARE ARITHMETIC OPERATORS?
@@ -169,9 +184,9 @@ elif ans == 3:
 """)
 
 elif ans == 4:
- print("=" * 50)
+ print("=" * 60)
  print("LESSON 4: BASIC INPUT AND OUTPUT")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT IS INPUT?
@@ -208,9 +223,9 @@ elif ans == 4:
 """)
 
 elif ans == 5:
- print("=" * 50)
+ print("=" * 60)
  print("LESSON 5: CONDITIONAL STATEMENTS")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT ARE CONDITIONAL STATEMENTS?
@@ -270,9 +285,9 @@ elif ans == 5:
 """)
 
 elif ans == 6:
- print("=" * 50)
+ print("=" * 60)
  print("LESSON 6: LOGICAL OPERATORS")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT ARE LOGICAL OPERATORS?
@@ -315,9 +330,9 @@ elif ans == 6:
 """)
 
 elif ans == 7:
- print("=" * 50)
+ print("=" * 60)
  print("LESSON 7: INTRODUCTION TO ITERATION AND LOOPS")
- print("=" * 50)
+ print("=" * 60)
 
  print("""
  WHAT IS ITERATION?
